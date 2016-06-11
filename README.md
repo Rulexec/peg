@@ -87,9 +87,9 @@ class <- [a-z]
 ```
 will watch "a" or "b" or all the way to "z".
 
-For an inverse character class start with a tilde:
+For an inverse character class start with a caret:
 ```
-inverse <- [~a-z]
+inverse <- [^a-z]
 ```
 will match anything but "a" or "b" or all the way to "z"
 
